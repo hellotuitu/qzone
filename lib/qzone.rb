@@ -1,6 +1,6 @@
-require "/qzone/version"
-require '/qzone/qzone_login'
-require "/qzone/interface"
+require "qzone/version"
+require 'qzone/qzone_login'
+require "qzone/interface"
 
 class Qzone
   def initialize(user, password)
